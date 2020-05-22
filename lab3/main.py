@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 from MultidimensionalOptimization import MultidimensionalOptimization
 
-a, b, c, d = 11, -0.4, 1, 0.21
+a, b, c, d = 3, -1.2, 0.02, 1.3
 
 func = lambda x: (x[0] - a) ** 2 + (x[1] - b) ** 2 + np.exp(c * x[0] ** 2 + d * x[1])
 
